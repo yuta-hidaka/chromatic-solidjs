@@ -12,7 +12,7 @@ export const Button = (props: ButtonProps) => {
   return (
     <button
       class={`px-4 py-2 rounded-md text-white ${
-        variant === "primary" ? "bg-blue-500" : "bg-gray-500"
+        variant === "primary" ? "bg-blue-400" : "bg-gray-400"
       }`}
       {...rest}
     >
